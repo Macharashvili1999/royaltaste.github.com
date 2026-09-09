@@ -1,0 +1,62 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<style>
+  body { font-family: Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 0; }
+  .header { background: #1a252c; color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 20px; font-weight: bold; color: #c5a059; }
+  .cart { background: #c5a059; color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold; }
+  .hero { background: #2c3e50; color: white; text-align: center; padding: 30px 10px; }
+  .categories { text-align: center; margin: 20px 0; }
+  .tag { background: white; border: 1px solid #ccc; padding: 6px 14px; border-radius: 15px; margin: 0 2px; font-weight: bold; display: inline-block; }
+  .active { background: #c5a059; color: white; border-color: #c5a059; }
+  .card { background: white; margin: 10px auto; max-width: 500px; padding: 15px; border-radius: 8px; border: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+  .price { font-weight: bold; font-size: 16px; color: #1a252c; }
+  .btn { background: #1a252c; color: white; padding: 6px 12px; border-radius: 5px; font-size: 12px; }
+  .checkout { background: white; border: 2px solid #c5a059; max-width: 500px; margin: 20px auto; padding: 20px; border-radius: 10px; }
+  .inp { background: #f1f1f1; border: 1px solid #ccc; padding: 8px; border-radius: 5px; width: 95%; margin-bottom: 10px; }
+  .wa-btn { background: #25D366; color: white; text-align: center; padding: 12px; font-weight: bold; border-radius: 6px; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">LUX CATERING</div>
+  <div class="cart">🛒 კალათა (2)</div>
+</div>
+
+<div class="hero">
+  <h2>პრემიუმ ქეთერინგის სერვისი</h2>
+  <p>დაუკვეთეთ ფურშეტები და კანაპეები</p>
+</div>
+
+<div class="categories">
+  <span class="tag active">ყველა</span>
+  <span class="tag">კანაპეები</span>
+  <span class="tag">ბურგერები</span>
+</div>
+
+<div class="card">
+  <div><strong>კანაპეს ნაკრები Premium</strong><br><small>24 ცალი კანაპე ზღვის პროდუქტებით</small></div>
+  <div><span class="price">45 €</span> <span class="btn">+ დამატება</span></div>
+</div>
+
+<div class="card">
+  <div><strong>მინი ბურგერების სეტი</strong><br><small>12 ცალი წვნიანი მინი ბურგერი</small></div>
+  <div><span class="price">35 €</span> <span class="btn">+ დამატება</span></div>
+</div>
+
+<div class="checkout">
+  <h3>🛒 შეკვეთის გაფორმება</h3>
+  <p><strong>სულ ჯამი: 80 €</strong></p>
+  <input class="inp" value="გიორგი ბერიძე" readonly>
+  <input class="inp" value="+34 600 000 000" readonly>
+  <input class="inp" value="Carrer de Mallorca, 234, Barcelona" readonly>
+  <div class="wa-btn">📲 შეკვეთა WhatsApp-ით</div>
+</div>
+
+</body>
+</html>
